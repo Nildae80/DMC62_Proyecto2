@@ -23,23 +23,3 @@ El objetivo principal es responder a la caída de la efectividad comercial del b
 
 ---
 
-## 📸 Capturas de la App
-
-> *Nota: Asegúrate de guardar tus imágenes dentro de una carpeta llamada `img/` o adjuntarlas directamente en GitHub.*
-
-### 1. Presentación y Carga de Datos
-![Home y Carga](https://via.placeholder.com/800x400.png?text=Captura+de+Home+y+Carga+de+Datos)
-
-### 2. Análisis Exploratorio e Interacción Dinámica
-![EDA y Widgets](https://via.placeholder.com/800x400.png?text=Captura+del+Modulo+EDA+y+Tabs)
-
----
-
-## ⚙️ Instrucciones de Ejecución Local
-
-Sigue estos pasos para ejecutar la aplicación de forma local en tu computadora:
-
-### 1. Clonar el repositorio
-```bash
-git clone [https://github.com/nildae80/dmc62_proyecto2.git](https://github.com/nildae80/dmc62_proyecto2.git)
-cd dmc62_proyecto2
