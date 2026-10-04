@@ -288,14 +288,14 @@ elif opcion_menu == "EDA (Análisis Exploratorio)":
 # MÓDULO 4: CONCLUSIONES FINALES
 # ==========================================
 elif opcion_menu == "Conclusiones":
-    st.title("💡 Conclusiones Finales y Decisiones de Negocio")
-    st.markdown("Basado en el Análisis Exploratorio de Datos real sobre las 41,188 interacciones:")
+    st.title("💡 Conclusiones Finales")
+    st.markdown("Basado en el Análisis Exploratorio de Datos real sobre las 41,188 interacciones del archivo con 21 columnas con informacion:")
 
     st.markdown("""
-    1. **La duración de la llamada es el factor determinante crítico:** Las llamadas que resultaron en contratación (`yes`) tuvieron una duración promedio superior a **9 minutos (553 segundos)**, en comparación con solo **3.6 minutos (220 segundos)** en las rechazadas.
+    1. **La duración de la llamada es el factor determinante crítico:** Las llamadas que resultaron en contratación tuvieron una duración promedio superior a **9 minutos (553 segundos)**, en comparación con solo **3.6 minutos (220 segundos)** en las rechazadas.
        * *Decisión:* Capacitar a la fuerza comercial en guías de conversación de mayor valor que mantengan al cliente enganchado más tiempo en lugar de realizar llamadas breves y automatizadas.
 
-    2. **Superioridad del canal Celular frente al Teléfono Fijo:** La tasa de conversión a través de teléfonos celulares (**14.7%**) casi triplica la efectividad del teléfono fijo (**5.2%**).
+    2. **Superioridad del canal de contactto Teléfono Movil frente al Teléfono Fijo:** La tasa de conversión a través de teléfonos moviles (**14.7%**) casi triplica la efectividad del teléfono fijo (**5.2%**).
        * *Decisión:* Priorizar bases de datos con números celulares actualizados y restringir campañas masivas a teléfonos fijos tradicionales.
 
     3. **Segmentos de alta conversión desatendidos:** Los estudiantes (**31.4%**) y los jubilados (**25.2%**) presentan las tasas de aceptación más altas de toda la base, a pesar de no representar el mayor volumen de llamadas.
