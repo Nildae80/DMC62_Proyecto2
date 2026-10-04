@@ -15,10 +15,6 @@ st.set_page_config(
 # Estilo global de gráficos
 sns.set_theme(style="whitegrid")
 
-
-# ==========================================
-# PROGRAMACIÓN ORIENTADA A OBJETOS (POO)
-# ==========================================
 class DataAnalyzer:
     """Clase encargada de encapsular el análisis estadístico y la generación de gráficos."""
     
@@ -87,16 +83,8 @@ class DataAnalyzer:
         plt.legend(title=cat_var2, bbox_to_anchor=(1.05, 1), loc='upper left')
         return fig
 
-
-# ==========================================
-# MENÚ NAVEGABLE EN LA BARRA LATERAL (SIDEBAR)
-# ==========================================
-st.sidebar.title("📌 Menú Principal")
-#opcion_menu = st.sidebar.radio(
-#    "Seleccione un Módulo:",
-#    ["Home", "Carga de Dataset", "EDA (Análisis Exploratorio)", "Conclusiones"]
-#)
 imagen = st.sidebar.image("Python_logo.png", width=200)
+st.sidebar.title("📌 Menú Principal")
 opcion_menu = st.sidebar.selectbox("Selecciones el Módulo",["Home", "Carga de Dataset", "EDA (Análisis Exploratorio)", "Conclusiones"])
 st.sidebar.image("DMC.png", width=150)
 
@@ -121,25 +109,19 @@ if opcion_menu == "Home":
         
         ---
         ### 👨‍💻 Datos del Autor
-        * **Nombre Completo:** [Tu Nombre y Apellidos]
+        * **Nombre Completo:** Nilda Echevarria Meza
         * **Curso:** Especialización en Python for Analytics
-        * **Institución:** DILIC Institute
+        * **Institución:** DMC Institute
         * **Año:** 2026
         
         ---
         ### 🛠️ Tecnologías Utilizadas
-        * **Lenguaje:** Python 3.10+
+        * **Lenguaje:** Python 
         * **Interfaz Interactiva:** Streamlit
         * **Procesamiento de Datos:** Pandas & NumPy
         * **Visualización:** Matplotlib & Seaborn
         """)
         
-    with col2:
-        st.info("""
-        **Contexto de Negocio:**
-        En los últimos 6 meses, la efectividad comercial cayo del **12% al 8%**. Este dashboard busca proveer herramientas de diagnóstico analítico sin modelos predictivos para entender el comportamiento de la tasa de conversión.
-        """)
-
 
 # ==========================================
 # MÓDULO 2: CARGA DEL DATASET
