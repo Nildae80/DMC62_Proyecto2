@@ -6,7 +6,7 @@ import seaborn as sns
 
 # Configuración inicial de la página
 st.set_page_config(
-    page_title="EDA Bank Marketing Dashboard",
+    page_title="Proyecto 2 | EDA Bank Marketing Dashboard",
     page_icon="🏦",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -92,10 +92,13 @@ class DataAnalyzer:
 # MENÚ NAVEGABLE EN LA BARRA LATERAL (SIDEBAR)
 # ==========================================
 st.sidebar.title("📌 Menú Principal")
-opcion_menu = st.sidebar.radio(
-    "Seleccione un Módulo:",
-    ["Home", "Carga de Dataset", "EDA (Análisis Exploratorio)", "Conclusiones"]
-)
+#opcion_menu = st.sidebar.radio(
+#    "Seleccione un Módulo:",
+#    ["Home", "Carga de Dataset", "EDA (Análisis Exploratorio)", "Conclusiones"]
+#)
+imagen = st.sidebar.image("Python_logo.png", width=200)
+opcion_menu = st.sidebar.selectbox("Selecciones el Módulo",["Home", "Carga de Dataset", "EDA (Análisis Exploratorio)", "Conclusiones"])
+st.sidebar.image("DMC.png", width=150)
 
 # Estado global del dataset en session_state
 if 'df' not in st.session_state:
