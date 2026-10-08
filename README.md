@@ -7,6 +7,7 @@ Aplicación web interactiva desarrollada con **Python** y **Streamlit** para la 
 
 ## 🔗 Links Relevantes
 * **Repositorio en GitHub:** [https://github.com/nildae80/dmc62_proyecto2](https://github.com/nildae80/dmc62_proyecto2)
+* **Streamlit:** [https://dmc62-nildaechevarria-proyecto2.streamlit.app/](https://dmc62-nildaechevarria-proyecto2.streamlit.app/)
 
 ---
 
@@ -23,3 +24,19 @@ El objetivo principal es responder a la caída de la efectividad comercial del b
 
 ---
 
+## 📸 Capturas de la App
+
+<img width="1346" height="588" alt="image" src="https://github.com/user-attachments/assets/fa410c41-a80d-426c-b895-31382267be27" />
+
+<img width="1349" height="471" alt="image" src="https://github.com/user-attachments/assets/9f94d19d-0614-46ab-a959-538c5c3264b5" />
+
+<img width="1354" height="593" alt="image" src="https://github.com/user-attachments/assets/c202335f-6cd4-4487-90dd-0816d52019f8" />
+
+<img width="1353" height="537" alt="image" src="https://github.com/user-attachments/assets/e13b4d3e-43eb-44e1-b346-2de17244b9ba" />
+
+<img width="1354" height="566" alt="image" src="https://github.com/user-attachments/assets/b2168e56-259b-44b1-99af-52394d85bc16" />
+
+<img width="1347" height="520" alt="image" src="https://github.com/user-attachments/assets/382074c6-208f-4155-8e61-edd8315daff4" />
+
+
+---
